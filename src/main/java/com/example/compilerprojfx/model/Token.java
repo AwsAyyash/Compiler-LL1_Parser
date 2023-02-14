@@ -1,0 +1,20 @@
+package com.example.compilerprojfx.model;
+
+
+// THE recognized tokens
+public enum Token {
+
+
+    // user defined names
+    // IDENTIFIER=NAME
+    NAME, INTEGER_VALUE,
+
+    KEYWORD,
+
+    PLUS,MINUS,TIMES,DIVIDE,MOD, // TIMES=MULTIPLY ='*'
+    ASSIGNMENT_OPERATOR,SEMICOLON, COMMA,DOT,COLON,EQUAL,LOWER_OR_EQUALS,
+    GREATER_OR_EQUALS, NOT_EQUALS, GREATER_THAN, LOWER_THAN,
+
+    LEFT_PARENTHESIS, RIGHT_PARENTHESIS,
+    INVALID
+}
